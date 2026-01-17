@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Controle de Finanças</title>
+</head>
+<body>
+
+  <h1>Controle de Finanças</h1>
+
+  <ul id="transactions"></ul>
+
+  <h2>Nova Transação</h2>
+
+  <input type="text" id="title" placeholder="Descrição" />
+  <input type="number" id="amount" placeholder="Valor" />
+  <select id="type">
+    <option value="income">Entrada</option>
+    <option value="expense">Saída</option>
+  </select>
+
+  <button onclick="addTransaction()">Adicionar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
